@@ -1,0 +1,16 @@
+
+<%- include("./partials/header") -%>
+
+
+  <div class="container">
+    <form id="weatherForm" action="/" method="post">
+      <label for="cityName">Enter city name:</label>
+      <br>
+      <input type="text" id="cityName" name="cityName" placeholder="e.g. London" required>
+      <br>
+      <input type="submit" value="Get Weather">
+    </form>
+  </div>
+
+
+<%- include("./partials/footer") -%>
